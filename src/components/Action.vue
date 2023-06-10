@@ -39,7 +39,7 @@ import Modal from "./Modal.vue";
 
 const showModal = ref(false);
 const title = ref("");
-const amount = ref(0);
+const amount = ref();
 const description = ref("");
 const movementType = ref("Ingreso");
 
@@ -102,7 +102,7 @@ textarea {
 }
 
 input[type="number"] {
-  text-align: right;
+  /* text-align: right; */
 }
 
 .radio-label {
